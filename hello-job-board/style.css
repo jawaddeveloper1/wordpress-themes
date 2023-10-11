@@ -1,0 +1,243 @@
+/*
+Theme Name: Hello Job Board
+Author: Muhammad Jawad Abbasi
+Author URI: https://jawaddeveloper.com
+Description: Job Board theme
+Tags: custom-logo
+Version: 1.0
+Text Domain: hello-job-board
+Requires at least: 5.3
+Tested up to: 6.2
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h6{
+    font-size: 15px;
+}
+
+
+/* Other */
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Header */
+.hjb-header .collapse .show{
+    background-color: red;
+}
+
+
+
+/* Main Job Page */
+.hjb-job-content{
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+}
+
+.hjb-job-content h5{
+    margin-bottom: 20px;
+}
+
+
+/* Single Job Page */
+.hjb-skill-taxomony{
+    list-style: none;
+}
+
+
+/* Post A Job Form*/
+.hjb-post-job-form label{
+    margin: 15px 0 7px 0;
+}
+
+.hjb-post-job-form label:first-child{
+    margin-top: 0px;
+}
+
+#wp-jdescription_editor-wrap .wp-editor-tabs{
+    display: none;
+}
+
+
+/* Blog Page */
+span.page-numbers.current{
+    background: #0d6efd;
+    color: white;
+    padding: 5px 25px;
+}
+
+.page-numbers{
+    border: 1px solid #0d6efd;
+    padding: 5px 25px;
+}
+
+.comment-list .children{
+    margin-top: 20px;
+}
+
+
+/* Footer */
+.hjb-footer-navmenu ul{
+    text-align: center;
+}
+.hjb-footer-navmenu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.hjb-footer-navmenu li:first-child{
+    margin-left: 0px;
+}
+
+.hjb-footer-navmenu a{
+    text-decoration: none;
+    color: grey;
+}
+
+.hjb-footer-copyright{
+    text-align: center;
+}
+
+/* WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+ 
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+ 
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+ 
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+ 
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+ 
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+ 
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+ 
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+ 
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+ 
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+ 
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+ 
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+ 
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+ 
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+ 
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+.gallery-caption, .bypostauthor{
+	display: block;
+}
